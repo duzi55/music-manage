@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4086996e-3159-489b-8e03-c9f05c38e625" name="Default Changelist" comment="" />
+    <list default="true" id="4086996e-3159-489b-8e03-c9f05c38e625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/api/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Aside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConsumerPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SingerPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SongListPage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mixins/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/shine.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/shine.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +32,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kpWIiFTkFZ6spW63aE5a6fgiYQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -31,6 +56,11 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\g1375\Desktop\my_work\vue\music-manage\src\components" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -42,16 +72,38 @@
       <updated>1606397934455</updated>
       <workItem from="1606397935477" duration="7749000" />
       <workItem from="1606449732964" duration="2317000" />
+      <workItem from="1606541553226" duration="3037000" />
+      <workItem from="1606548308744" duration="15502000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="503" y="231" key="#ESLint" timestamp="1606399091491">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="503" y="231" key="#ESLint/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606399091491" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1606565943024">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606565943024" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606571860992">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606571860992" />
   </component>
 </project>

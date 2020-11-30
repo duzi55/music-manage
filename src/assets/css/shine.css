@@ -91,7 +91,6 @@ p:nth-child(2) a:hover{
   animation: neon2 1.5s ease-in-out infinite alternate;
 }
 .my-p a{
-  /*font-size:1.5em;*/
   color:#1e3e5f;;
   font-family:Iceland;
   text-shadow: 0 0 10px #fff,

@@ -1,6 +1,7 @@
 <template>
   <div class="login-wrap">
-    <div class="ms-title" id="container"><p class="my-p"><a href="#">
+    <div class="ms-title" id="container"><p class="my-p"><a href="#" style="  font-size:1.5em;
+">
       Music
     </a></p></div>
     <div class="ms-login">
@@ -12,7 +13,7 @@
           <el-input type="password" v-model="ruleForm.password" placeholder="密码"></el-input>
         </el-form-item>
         <div class="login-btn">
-          <button @click="login()">登录</button>
+          <button @click="login()" type="button">登录</button>
         </div>
       </el-form>
 
@@ -22,8 +23,11 @@
 </template>
 <script>
 import '../assets/css/shine.css'
+import {getLoginStatus} from '../api'
+import {mixin} from '../mixins/index'
 
 export default {
+  mixins:[mixin],
   data: function () {
     return {
       ruleForm: {
@@ -38,6 +42,26 @@ export default {
           {required: true, message: '请输入密码', trigger: 'blur'}
         ]
       }
+    }
+  },
+  methods:{
+    login(){
+      let params = new URLSearchParams();
+      params.append("username",this.ruleForm.username);
+      params.append("password",this.ruleForm.password);
+      getLoginStatus(params)
+      .then(res=>{
+        if(res.code == 1){
+          localStorage.setItem("userName",this.ruleForm.username)
+          this.$router.push('Info')
+          this.notify('success','登陆成功')
+        }else {
+          this.notify('error',res.msg)
+          // this.$notify.error({
+          //   title: res.msg,
+          // });
+        }
+      })
     }
   }
 }

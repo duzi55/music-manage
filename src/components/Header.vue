@@ -17,6 +17,10 @@
         <span class="el-dropdown-link">
           {{userName}}
         </span>
+        <i class="el-icon-caret-bottom"></i>
+        <el-dropdown-menu slot="dropdown">
+          <el-dropdown-item command="logout">退出登录</el-dropdown-item>
+        </el-dropdown-menu>
       </el-dropdown>
     </div>
   </div>
@@ -65,8 +69,16 @@ export default {
         }
       }
       this.fullscreen = !this.fullscreen
+    },
+    handleCommand(command){
+      console.log(command)
+      if(command == 'logout'){
+        localStorage.removeItem('userName')
+        this.$router.push("/")
+      }
     }
   }
+
 }
 </script>
 <style scoped>
@@ -127,7 +139,8 @@ export default {
   margin-left: 10px;
 }
 .el-dropdown-link{
-  background-color: #ffffff;
+  color: white;
+  cursor: pointer;
 }
 .my-p a{
   color:#1e3e5f;;
